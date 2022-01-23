@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: rgb(135, 185, 147);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container
+{
+    border-radius: 20px;
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 100px;
+    background: #fff;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    
+}
+.container .left_Side
+{
+    position: relative;
+    background: #004b13;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+
+.profileText 
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.profileText .imgBx 
+{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: 80px;
+    overflow: hidden;   
+}
+.profileText .imgBx img
+{
+    position: absolute;
+    top:0;
+    left: 0;;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.profileText h2
+{
+    color: #fff;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.container .right_Side
+{
+    
+    position: relative;
+    background: rgb(231, 255, 226);
+    padding: 40px;
+    
+}
+
+.right_Side ul li
+{
+    margin-bottom: 20px;
+
+}
+
+.education 
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgb(44, 44, 44);
+    margin-bottom: 25px;
+} 
+
+.education h3 {
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+
+.work 
+{
+    border-bottom: 1px solid rgb(44, 44, 44);
+    margin-bottom: 25px;
+    
+} 
+
+.work h3 
+{
+    margin-left: 200px;
+    margin-bottom: 10px;
+}
+
+.map {
+    margin-top: 30px;  
+
+}
+
+.phone p
+{
+    color: #fff;
+    margin-top: 10px;    
+    font-weight: bold;
+}
+
+.phone p span
+{
+    margin-left: 10px;
+}
+
+
+footer  ul
+{
+    list-style-type: none;
+    padding: 0;
+}
+
+.phone a
+{
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 30px;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+    text-decoration: none;   
+}
+
+  
+  .phone a:hover {
+    color: #5bc558;
+    right: 0;
+    text-decoration: none;
+}
+  
+.contact ul li
+{
+    padding-top: 100px;
+    display: inline;
+    margin-right: 5px; 
+    color: #fff;
+}
+
+.contact ul li i
+{
+    border-color: #5bc558;
+    right: 0;
+    margin-top: 20px;
+}
+  
+.contact ul a
+{
+    text-decoration: none;
+    margin-top: 20px;
+    padding-left: 50px;
+    color: #fff;
+}
+
+.contact ul li i:hover
+{
+    color: #2b90e2;
+}
+  
+.author
+{
+    margin-top: 60%;
+    border-top: 1px solid rgb(112, 112, 112);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.skills h3
+{
+     margin-bottom: 10px;
+}
+
+.skills
+{
+    float: left; 
+    margin-left: 15px;
+    
+}
+.Skiils_1 
+{
+    float: left;
+    margin-left: 150px;
+}
+
+button 
+{
+    background: #008EB0; 
+    color: #fff; 
+    border: none; 
+    padding: 10px 10px;
+    margin-bottom: 20px; 
+    margin-right: 5px; 
+    border-radius: 10px;
+}
+
+.green 
+{ 
+    background: #298d38; 
+    font-size: 15px;
+}
+
+.green:hover
+{ 
+    background: #165e218e; 
+    font-size: 18px;
+}
+
+.green  a
+{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
